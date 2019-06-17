@@ -1,0 +1,124 @@
+$column-width: 480px;
+$gutter-width: 20px;
+
+.App {
+  text-align: center;
+  margin: auto;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+.player-wrapper {
+  width: auto;
+  height: auto;
+}
+
+.player-wrapper .react-player__play-icon {
+  border-width: 32px 0px 32px 50px;
+}
+
+.player-wrapper .react-player__preview {
+  width: 100% !important;
+  height: auto;
+}
+
+.container {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+/*
+Button {
+  border: 2px solid black;
+  border-radius: 4px;
+  color: black;
+  margin-left: 50%;
+  margin-bottom: 10px;
+  top: 50%;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+ */
+
+button:hover {
+  background-color: #008CBA; /* Green */
+  color: white;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.player-wrapper .react-player__play-icon {
+  border-width: 32px 0px 32px 50px;
+}
+
+.player-wrapper .react-player__preview {
+  width: 100% !important;
+  height: auto;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: auto;
+}
+
+ul{
+  width: 100%;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+
+.react-player {
+  padding-top: 56.25%;
+  position: relative;
+  z-index: -1;
+}
+
+
+.section {
+  display: inline-block;
+  max-width: $column-width;
+  margin: $gutter-width;
+  text-align: left;
+  vertical-align: top;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

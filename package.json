@@ -1,0 +1,43 @@
+{
+  "name": "videoplayer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.1.0",
+    "@material-ui/icons": "^4.1.0",
+    "bootstrap": "^4.3.1",
+    "hls.js": "^0.12.4",
+    "jquery": "^3.4.1",
+    "react": "^16.8.6",
+    "react-bootstrap": "^0.32.4",
+    "react-bootstrap-dropdown-menu": "^1.1.15",
+    "react-dom": "^16.8.6",
+    "react-player": "^1.11.0",
+    "react-player-controls": "^1.1.0",
+    "react-responsive-navbar": "^1.0.11",
+    "react-scripts": "3.0.1",
+    "screenfull": "^4.2.0",
+    "typescript": "^3.5.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
